@@ -1,4 +1,4 @@
-MatikanBot = true
+MatikanBot = false
 
 ---===== Info World Pack =====---
 autobuypack = true
