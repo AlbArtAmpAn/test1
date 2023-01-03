@@ -1,1 +1,1 @@
-MatikanBot = false
+MatikanBot = true
