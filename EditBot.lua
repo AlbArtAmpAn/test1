@@ -1,3 +1,10 @@
+autobuypack = true
+hargapack = 50000
+namapack = "mega_party_pack"
+MinItemPack = 4
+maxbuy = 2
+iditempack = {2306, 7672}
+
 if getPing() < 150 then
     delayht = 75 -- DELAY HARVEST
     delayplant = 50 -- DELAY PLANt
@@ -18,4 +25,10 @@ else
     Selisih = ((24 + JamSkrg)  - wkt.hour)
 end
 
-WorldPack = {"ASA1SH7", "DGA22BSA"}
+for i, v in pairs(ListBot) do
+    if i <= 3 then
+        WorldPack = {"ASA1SH7"}
+    else
+        WorldPack = {"DGA22BSA"}        
+    end
+end
