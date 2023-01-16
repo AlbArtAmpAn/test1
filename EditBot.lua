@@ -1,7 +1,7 @@
 autobuypack = true
 hargapack = 50000
 namapack = "mega_party_pack"
-MinItemPack = 5
+MinItemPack = 4
 maxbuy = 10
 iditempack = {2306, 7672}
 
