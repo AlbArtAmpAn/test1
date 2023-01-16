@@ -1,9 +1,4 @@
-autobuypack = true
-hargapack = 50000
-namapack = "mega_party_pack"
-MinItemPack = 4
-maxbuy = 2
-iditempack = {2306, 7672}
+iditempack = {242, 2306, 7672}
 
 if getPing() < 150 then
     delayht = 75 -- DELAY HARVEST
