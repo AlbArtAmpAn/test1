@@ -25,10 +25,4 @@ else
     Selisih = ((24 + JamSkrg)  - wkt.hour)
 end
 
-for i, v in pairs(ListBot) do
-    if i <= 3 then
-        WorldPack = {"ASA1SH7"}
-    else
-        WorldPack = {"DGA22BSA"}        
-    end
-end
+WorldPack = {"ASA1SH7"}
