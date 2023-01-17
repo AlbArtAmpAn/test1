@@ -17,7 +17,7 @@ else
     delayplace = 125 -- DELAY PLACE
 end
 
-JamSkrg = 6
+JamSkrg = 19
 wkt = os.date("*t", os.time())
 if JamSkrg >= wkt.hour then
     Selisih = (JamSkrg  - wkt.hour)
