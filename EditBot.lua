@@ -1,16 +1,23 @@
 autobuypack = true
-hargapack = 20000 -- HARGA PACK
-namapack = "world_lock_10_pack" -- NAMA PACK
-MinItemPack = 15 --APABILA JUMLAH ITEM YANG ADA DIDALAM iditempack LEBIH BESAR DARIPADA MinItemPack, MAKA BOTNYA MULAI DROP PACKNYA KE STORAGE!
-maxbuy = 5 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA GEMSNYA MASIH CUKUP!
+hargapack = 20000
+namapack = "world_lock_10_pack"
+MinItemPack = 15
+maxbuy = 5
 iditempack = {242, 2306, 7672}
 
-delayht = 70 -- DELAY HARVEST
-delayplant = 50 -- DELAY PLANT
-delaypnb = 165 -- DELAY PNB
-delayplace = 115 -- DELAY PLACE
+if getPing() < 150 then
+    delayht = 65 -- DELAY HARVEST
+    delayplant = 55 -- DELAY PLANt
+    delaypnb = 160 -- DELAY PNB
+    delayplace = 110 -- DELAY PLACE
+else
+    delayht = 70 -- DELAY HARVEST
+    delayplant = 50 -- DELAY PLANT
+    delaypnb = 165 -- DELAY PNB
+    delayplace = 115 -- DELAY PLACE
+end
 
-JamSkrg = 12
+JamSkrg = 8
 wkt = os.date("*t", os.time())
 if JamSkrg >= wkt.hour then
     Selisih = (JamSkrg  - wkt.hour)
