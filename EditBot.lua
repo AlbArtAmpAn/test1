@@ -1,7 +1,7 @@
 autobuypack = true
 hargapack = 20000
 namapack = "world_lock_10_pack"
-MinItemPack = 15
+MinItemPack = 9
 maxbuy = 5
 iditempack = {242, 2306, 7672}
 
