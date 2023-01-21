@@ -26,3 +26,8 @@ if JamSkrg >= wkt.hour then
 else
     Selisih = ((24 + JamSkrg)  - wkt.hour)
 end
+
+SpecialItem = {5748, 5742, 5746}
+minSpec = 150
+WorldSpec = "17AJA1"
+ID_AcuanDrop_Spec = 104
