@@ -19,14 +19,6 @@ end
 
 WorldSeed = {"SH217AJ1", "16AHA1A"}
 
-JamSkrg = 17
-wkt = os.date("*t", os.time())
-if JamSkrg >= wkt.hour then
-    Selisih = (JamSkrg  - wkt.hour)
-else
-    Selisih = ((24 + JamSkrg)  - wkt.hour)
-end
-
 SpecialItem = {5748, 5742, 5746}
 minSpec = 150
 WorldSpec = "17AJA1"
