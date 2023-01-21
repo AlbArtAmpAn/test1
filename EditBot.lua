@@ -17,7 +17,9 @@ else
     delayplace = 115 -- DELAY PLACE
 end
 
-JamSkrg = 22
+WorldSeed = {"SH217AJ1", "16AHA1A"}
+
+JamSkrg = 13
 wkt = os.date("*t", os.time())
 if JamSkrg >= wkt.hour then
     Selisih = (JamSkrg  - wkt.hour)
