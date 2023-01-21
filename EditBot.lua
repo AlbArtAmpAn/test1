@@ -19,7 +19,7 @@ end
 
 WorldSeed = {"SH217AJ1", "16AHA1A"}
 
-JamSkrg = 13
+JamSkrg = 17
 wkt = os.date("*t", os.time())
 if JamSkrg >= wkt.hour then
     Selisih = (JamSkrg  - wkt.hour)
