@@ -1,9 +1,9 @@
 autobuypack = true
-hargapack = 25000
-namapack = "nian_lunar_chest"
-MinItemPack = 1
+hargapack = 10000
+namapack = "cny_spray"
+MinItemPack = 5
 maxbuy = 5
-iditempack = {13054, 242}
+iditempack = {5764, 13054, 242}
 
 if getPing() < 150 then
     delayht = 65 -- DELAY HARVEST
