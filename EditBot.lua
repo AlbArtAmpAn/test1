@@ -17,9 +17,5 @@ else
     delayplace = 115 -- DELAY PLACE
 end
 
-WorldSeed = {"AJSA16AJ"}
-
-SpecialItem = {5748, 5742, 5746}
-minSpec = 150
-WorldSpec = "17AJA1"
-ID_AcuanDrop_Spec = 104
+WorldSeed = {"AJSA16AJ", "BHKA118BA", "BKJAH17A", "HAJW1AG71", "AH17AHQ", "JSDA12LA", "SG1AHA3", "93JAUW2"}
+WorldPack = {"18AJA2", "16AKA11", "AHA11AJ", "09SKA2W", "82BAAJ3J", "SJA116LW", "ASA1SH7", "28AIAW2", "26SNA1J", "NSS27AN", "DGA22BSA", "JAS2Y26"}
