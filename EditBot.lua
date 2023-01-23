@@ -17,7 +17,7 @@ else
     delayplace = 115 -- DELAY PLACE
 end
 
-WorldSeed = {"SH217AJ1", "16AHA1A"}
+WorldSeed = {"AJSA16AJ"}
 
 SpecialItem = {5748, 5742, 5746}
 minSpec = 150
