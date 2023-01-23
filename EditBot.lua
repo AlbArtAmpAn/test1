@@ -16,3 +16,5 @@ else
     delaypnb = 165 -- DELAY PNB
     delayplace = 115 -- DELAY PLACE
 end
+
+delayworld = 8000 -- DELAY MASUK DOOR
