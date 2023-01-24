@@ -1,9 +1,13 @@
+ConvertWL = true
+
 autobuypack = true
-hargapack = 10000
-namapack = "cny_spray"
-MinItemPack = 5
-maxbuy = 5
-iditempack = {5764, 13054, 242}
+hargapack = 20000
+namapack = "world_lock_10_pack"
+MinItemPack = 1
+maxbuy = 1
+iditempack = {1796}
+
+DontTrash = {242}
 
 if getPing() < 150 then
     delayht = 65 -- DELAY HARVEST
