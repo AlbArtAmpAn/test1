@@ -1,13 +1,9 @@
-ConvertWL = true
-
 autobuypack = true
-hargapack = 20000
-namapack = "world_lock_10_pack"
-MinItemPack = 1
-maxbuy = 1
-iditempack = {1796}
-
-DontTrash = {242}
+hargapack = 20000 -- HARGA PACK
+namapack = "world_lock_10_pack" -- NAMA PACK
+MinItemPack = 15 --APABILA JUMLAH ITEM YANG ADA DIDALAM iditempack LEBIH BESAR DARIPADA MinItemPack, MAKA BOTNYA MULAI DROP PACKNYA KE STORAGE!
+maxbuy = 10 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA GEMSNYA MASIH CUKUP!
+iditempack = {242}
 
 if getPing() < 150 then
     delayht = 65 -- DELAY HARVEST
