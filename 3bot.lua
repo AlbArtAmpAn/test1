@@ -21,8 +21,5 @@ delayworld = 8000 -- DELAY MASUK DOOR
 
 WorldSeed = {"AHQ1A1K", "WHWY2U2", "E711WHAS"}
 
-EventAlien = true
-WorldAlien = "18AJA2"
-
 EatBuff = true
 WorldBuff = "18AJA2"
