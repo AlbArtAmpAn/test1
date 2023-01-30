@@ -20,3 +20,11 @@ end
 delayworld = 8000 -- DELAY MASUK DOOR
 
 WorldSeed = {"AHQ1A1K", "WHWY2U2", "E711WHAS"}
+
+JamSkrg = 7
+wkt = os.date("*t", os.time())
+if JamSkrg >= wkt.hour then
+    Selisih = (JamSkrg  - wkt.hour)
+else
+    Selisih = ((24 + JamSkrg)  - wkt.hour)
+end
