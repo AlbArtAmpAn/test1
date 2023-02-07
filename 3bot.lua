@@ -12,7 +12,7 @@ if getPing() < 150 then
     delayplace = 110 -- DELAY PLACE
 else
     delayht = 70 -- DELAY HARVEST
-    delayplant = 50 -- DELAY PLANT
+    delayplant = 60 -- DELAY PLANT
     delaypnb = 165 -- DELAY PNB
     delayplace = 115 -- DELAY PLACE
 end
