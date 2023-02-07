@@ -19,6 +19,6 @@ end
 
 delayworld = 8000 -- DELAY MASUK DOOR
 
-WorldSeed = {"AJSA16AJ", "BHKA118BA"}
+WorldSeed = {"SA27SH", "AH17AHQ"}
 
 WorldPack = {"18AJA2", "16AKA11", "AHA11AJ"}
